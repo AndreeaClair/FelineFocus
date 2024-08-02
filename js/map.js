@@ -1,8 +1,8 @@
 $(window).on("load", function(){
 		//Open street  Map
-		var coord = [40.738270, -74.008911]; // <--- coordinates here
+		var coord = [46.754664, 23.594522]; // <--- coordinates here
 
-		var map = L.map('map-canvas', { scrollWheelZoom:false}).setView(coord, 19);
+		var map = L.map('map-canvas', { scrollWheelZoom:false}).setView(coord, 17);
 
 		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 		maxZoom: 22,

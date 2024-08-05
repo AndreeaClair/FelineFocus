@@ -39,7 +39,7 @@ body {
   color: #757373;
   overflow-x: hidden !important;
   -webkit-font-smoothing: antialiased;
-  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
   position: relative;
@@ -123,7 +123,7 @@ h4 small,
 h5 small,
 h6 small {
   text-transform: none;
-  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .pages h2 {
@@ -2014,6 +2014,18 @@ section.pages {
   transition: all 0.2s ease-in-out;
 }
 
+.padded-accordion {
+  padding: 25px;
+}
+
+.padded-accordion .row {
+  border-bottom: 1px solid rgba(16, 136, 150, 0.25);
+}
+
+.padded-accordion .col-md-2 {
+  text-align: right;
+}
+
 /* Lists */
 
 ul.no-margin {
@@ -2401,7 +2413,7 @@ blockquote:before {
   margin-top: 2em;
   text-align: center;
   margin-bottom: 12em;
-  background: url(../img/jumbotron.jpg);
+
   border-bottom-left-radius: 25%;
   border-bottom-right-radius: 25%;
 }
@@ -2413,6 +2425,22 @@ blockquote:before {
   display: inline-block;
   border-radius: 50%;
   border: 10px solid;
+}
+
+.jumbotron-contact {
+  background: url(../img/contact-header.jpg);
+}
+
+.jumbotron-about {
+  background: url(../img/chirurgie-2.jpg);
+}
+
+.jumbotron-pricing {
+  background: url(../img/pricing-1.jpg);
+}
+
+.jumbotron-gallery {
+  background: url(../img/galerie-2.jpg);
 }
 
 .jumbo-heading h1 {
@@ -3218,5 +3246,9 @@ button.list-group-item:hover {
 
   .slide__text {
     top: 50%;
+  }
+
+  hr.dashed {
+    border-top: 3px solid #bbb;
   }
 }

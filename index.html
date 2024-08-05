@@ -17,6 +17,14 @@
       <script src="js/respond.js"></script>
     <![endif]-->
     <!-- Bootstrap Core CSS -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
     <link
       href="vendor/bootstrap/css/bootstrap.min.css"
       rel="stylesheet"
@@ -59,7 +67,7 @@
     <div id="preloader">
       <div class="spinner">
         <!-- <div class="flaticon-animals-2"></div> -->
-        <img src="img/feline-focus-logo.png" />
+        <img src="img/feline-focus-logo.png" alt="Feline Focus" />
       </div>
     </div>
     <!-- Preloader ends -->
@@ -81,7 +89,7 @@
             <img
               src="img/feline-focus-logo.png"
               class="img-responsive"
-              alt=""
+              alt="Feline Focus"
             />
           </a>
         </div>
@@ -100,96 +108,19 @@
         <!-- /Hamburger menu -->
         <div class="collapse navbar-collapse" id="navbar">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Home
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li class="dropdown-item">
-                  <a href="index.html">Home with Slider 1</a>
-                </li>
-                <li class="dropdown-item">
-                  <a href="index-layerslider1.html">Home with Slider 2</a>
-                </li>
-                <li class="dropdown-item">
-                  <a href="index-layerslider2.html">Home with Slider 3</a>
-                </li>
-                <li class="dropdown-item">
-                  <a href="index-parallax.html">Home with Parallax</a>
-                </li>
-                <li class="dropdown-item">
-                  <a href="index-video.html">Home with Video</a>
-                </li>
-              </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown1"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Pages
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                <li class="dropdown-item">
-                  <a href="adoption.html">Adoption</a>
-                </li>
-                <li class="dropdown-item">
-                  <a href="adopt-single.html">Adoption Single</a>
-                </li>
-                <li class="dropdown-item">
-                  <a href="services.html">Our Services</a>
-                </li>
-                <li class="dropdown-item">
-                  <a href="services-single.html">Services Single</a>
-                </li>
-                <li class="dropdown-item"><a href="team.html">Our Team</a></li>
-                <li class="dropdown-item">
-                  <a href="pricing.html">Pricing</a>
-                </li>
-                <li class="dropdown-item">
-                  <a href="testimonials.html">Testimonials</a>
-                </li>
-                <li class="dropdown-item">
-                  <a href="elements.html">Elements</a>
-                </li>
-              </ul>
+              <a class="nav-link" href="about.html">Despre noi</a>
             </li>
           </ul>
           <ul class="navbar-nav navbar-right">
             <li class="nav-item">
-              <a class="nav-link" href="gallery.html">Gallery</a>
+              <a class="nav-link" href="gallery.html">Galerie foto</a>
             </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown2"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Blog
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
-                <li class="dropdown-item"><a href="blog.html">Blog Home</a></li>
-                <li class="dropdown-item">
-                  <a href="blog-single.html">Blog Post</a>
-                </li>
-              </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="pricing.html">Listă prețuri</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact</a>
@@ -222,9 +153,10 @@
               <div class="hidden-mobile">
                 <p class="lead">
                   Funcționăm doar pe bază de programare la numărul de telefon
+                  <br />
                   (+4) 0757 696 084.
                 </p>
-                <a href="services.html" class="btn btn-default"
+                <a href="contact.html" class="btn btn-default"
                   >Programează acum</a
                 >
               </div>
@@ -246,7 +178,12 @@
                 <p class="lead">
                   Suntem din Cluj-Napoca. Urmărește harta pentru locația exactă.
                 </p>
-                <a href="blog.html" class="btn btn-default">Suntem aici</a>
+                <a
+                  href="https://maps.app.goo.gl/4QyNDwNbGxQshFHD7"
+                  class="btn btn-default"
+                  target="_blank"
+                  >Suntem aici</a
+                >
               </div>
             </div>
           </div>
@@ -302,6 +239,8 @@
             <br />Efectuăm manopere medicale, examene de laborator și proceduri
             chirurgicale.
           </p>
+
+          <a class="btn" href="pricing.html">Listă Prețuri</a>
         </div>
         <!-- /col-->
       </div>
@@ -324,22 +263,21 @@
                       <img
                         src="img/medicina-veterinara.jpg"
                         class="img-fluid"
-                        alt=""
+                        alt="medicina-veterinara"
                       />
                     </div>
                     <div class="info">
                       <h4>Medicină veterinară specializată</h4>
                       <p>
-                        Un cabinet veterinar destinat exclusiv pisicilor care ia
-                        în considerare toți factorii care generează stres
-                        acestora. Echipa noastră medicală are experiență în
-                        abordarea pisicilor, precum și cursuri recurente de
-                        specializare în medicina felină. Astfel, managementul
-                        cazurilor clinice se face mult mai țintit, luând în
-                        considerare particularitățile acestei specii.
+                        Echipa medicală are 6 ani de experiență și o afinitate
+                        față de medicina internă a pisicilor și abordarea blândă
+                        a acestora. <br />În prezent, Dr. Ioana Ion urmează un
+                        curs de specializare în medicina felină (Postgraduate
+                        Certificate of Feline Medicine – International School of
+                        Veterinary Postgraduate Studies).
                       </p>
                       <!-- Button-->
-                      <a class="btn" href="services-single.html">Mai multe</a>
+                      <!-- <a class="btn" href="services-single.html">Mai multe</a> -->
                     </div>
                   </div>
                 </div>
@@ -352,21 +290,31 @@
                   <div class="icon">
                     <!-- icon -->
                     <div class="image">
-                      <img src="img/adoptie.jpg" class="img-fluid" alt="" />
+                      <img
+                        src="img/manopere.jpg"
+                        class="img-fluid"
+                        alt="manopere medicale"
+                      />
                     </div>
                     <div class="info">
-                      <h4>Sterilizarea și adopția</h4>
+                      <h4>Manopere medicale</h4>
+
                       <p>
-                        În România, inclusiv în Cluj-Napoca, sunt multe pisici
-                        ale străzii. Cabinetul veterinar Feline Focus susține
-                        sterilizarea pisicilor (indiferent de rasă) ca metodă
-                        eficientă de control a populației feline și a reducerii
-                        semnificative a riscurilor medicale asociate cu lipsa
-                        sterilizării (tumori mamare, infecție uterină, chisturi
-                        ovariene).
+                        Oferim proceduri și tehnici utilizate pentru
+                        diagnosticarea, tratarea și îngrijirea pisicilor.
+                        Evaluăm starea de sănătate a felinei și stabilim un plan
+                        de tratament. Utilizăm radiografii, ecografii și alte
+                        metode de imagistică pentru a identifica diferite
+                        probleme interne. Prevenim bolile infecțioase prin
+                        administrarea de vaccinuri.
                       </p>
                       <!-- Button-->
-                      <a class="btn" href="services-single.html">Mai multe</a>
+                      <!-- <a
+                        class="btn"
+                        href="https://icatcare.org/veterinary/resources/"
+                        target="_blank"
+                        >Mai multe</a
+                      > -->
                     </div>
                   </div>
                 </div>
@@ -380,24 +328,23 @@
                     <!-- icon -->
                     <div class="image">
                       <img
-                        src="img/medicina-specializata.jpg"
+                        src="img/analize.jpg"
                         class="img-fluid"
-                        alt=""
+                        alt="examene laborator"
                       />
                     </div>
                     <div class="info">
-                      <h4>Mediu calm și prietenos</h4>
+                      <h4>Examene laborator</h4>
                       <p>
-                        Timpul dedicat unei consultații este de minimum 10
-                        minute pentru a aborda cu răbdare fiecare pisică.
-                        Folosim recompense delicioase pentru distragerea
-                        atenției pisicii în momentul consultației. Pisicile nu
-                        se vor întâlni cu căței în sala de așteptare. Folosim
-                        întotdeauna o abordare blândă care ajută la relaxarea
-                        pisicilor.
+                        Analizele de laborator sunt esențiale pentru
+                        monitorizarea sănătății și diagnosticarea precoce a
+                        afecțiunilor. Ele oferă informații valoroase despre
+                        starea internă a pisicii și pot include teste precum
+                        hemoleucograma (CBC), profilul biochimic, testele de
+                        funcție tiroidiană, teste pentru virusuri etc.<br /><br />
                       </p>
                       <!-- Button-->
-                      <a class="btn" href="services-single.html">Mai multe</a>
+                      <!-- <a class="btn" href="services-single.html">Mai multe</a> -->
                     </div>
                   </div>
                 </div>
@@ -410,18 +357,25 @@
                   <div class="icon">
                     <!-- icon -->
                     <div class="image">
-                      <img src="img/service4.jpg" class="img-fluid" alt="" />
+                      <img
+                        src="img/chirurgie-1.jpg"
+                        class="img-fluid"
+                        alt="chirurgie"
+                      />
                     </div>
                     <div class="info">
-                      <h4>Pet Hotel</h4>
+                      <h4>Chirurgie</h4>
                       <p>
-                        Nulla vel metus scelerisque ante sollicitudinlorem
-                        ipsuet commodo. Cras purus odio, vestibulum in vulputate
-                        a Imperdiet interdum donec eget metus auguen unc vel
-                        lorem.
+                        Procedurile pot varia de la operații de rutină, cum ar
+                        fi sterilizarea, până la intervenții complexe, necesare
+                        în cazul accidentelor sau bolilor grave. Anestezia este
+                        utilizată pentru a asigura că pisica nu simte durere în
+                        timpul intervenției, iar monitorizarea post-operatorie
+                        este crucială pentru o recuperare rapidă și fără
+                        complicații.
                       </p>
                       <!-- Button-->
-                      <a class="btn" href="services-single.html">Read More</a>
+                      <!-- <a class="btn" href="services-single.html">Read More</a> -->
                     </div>
                   </div>
                 </div>
@@ -434,18 +388,23 @@
                   <div class="icon">
                     <!-- icon -->
                     <div class="image">
-                      <img src="img/service5.jpg" class="img-fluid" alt="" />
+                      <img
+                        src="img/preventiva.jpg"
+                        class="img-fluid"
+                        alt="medicina preventiva"
+                      />
                     </div>
                     <div class="info">
-                      <h4>Dog Walking</h4>
+                      <h4>Medicină preventivă</h4>
                       <p>
-                        Nulla vel metus scelerisque ante sollicitudinlorem
-                        ipsuet commodo. Cras purus odio, vestibulum in vulputate
-                        a Imperdiet interdum donec eget metus auguen unc vel
-                        lorem.
+                        Medicina preventivă pentru pisici este o parte
+                        integrantă a îngrijirii acestora, nu doar o măsură de
+                        precauție. <br />Ca exemplu, paraziții pot fi transmiși
+                        inclusiv oamenilor și, de aceea, deparazitarea internă
+                        și externă este fundamentală sănătății întregii familii.
                       </p>
                       <!-- Button-->
-                      <a class="btn" href="services-single.html">Read More</a>
+                      <!-- <a class="btn" href="services-single.html">Read More</a> -->
                     </div>
                   </div>
                 </div>
@@ -465,20 +424,18 @@
     <section id="about-index" class="bg-lightcolor1">
       <div class="container">
         <div class="section-heading text-center">
-          <h2>Despre noi</h2>
+          <h2>Feline Focus</h2>
         </div>
         <!-- row -->
         <div class="row">
           <div class="col-lg-7">
-            <h3>Pentru prietenul tău blănos</h3>
+            <h3>De ce să ne alegi pe noi?</h3>
             <p>
-              Echipa medicală are o experiență de 6 ani, având o afinitate față
-              de medicina internă a pisicilor și abordarea blândă a acestora.
-              Înțelegem că pisicile nu sunt doar animale de companie, ci membri
-              prețioși ai familiei dumneavoastră. Fie că este vorba de un
-              control de rutină sau de gestionarea unei afecțiuni complexe,
-              abordarea noastră asigură că fiecare pacient primește cea mai bună
-              îngrijire posibilă.
+              Pisicile nu sunt doar animale de companie, ci membri prețioși ai
+              familiei dumneavoastră. Fie că este vorba de un control de rutină
+              sau de gestionarea unei afecțiuni complexe, abordarea noastră
+              asigură că fiecare pacient primește cea mai bună îngrijire
+              posibilă.
             </p>
             <!-- Accordion -->
             <div class="accordion mt-4" id="accordion1">
@@ -593,11 +550,7 @@
           </div>
           <!-- /parallax-object1-->
           <div class="col-lg-5">
-            <img
-              src="img/cat.png"
-              class="img-fluid"
-              alt="Prietenul tau blanos"
-            />
+            <img src="img/cat.png" class="img-fluid" alt="De ce Feline Focus" />
           </div>
           <!-- /col-lg-5-->
         </div>
@@ -607,17 +560,16 @@
           <div class="features col-lg-3">
             <div class="col-12 big-icon">
               <!-- icon -->
-              <i class="flaticon-dog-and-pets-house"></i>
+              <i class="flaticon-siamese-cat"></i>
             </div>
             <div class="col-12">
-              <h5>Medicină preventivă</h5>
+              <h5>Sterilizare</h5>
               <p>
-                Medicina preventivă pentru pisici nu este doar o măsură de
-                precauție, ci o parte integrantă a îngrijirii zilnice a lor. Ca
-                exemplu, deparazitarea internă și externă regulată este
-                fundamentală deoarece paraziții pot fi transmiși și la oameni.
-                De aceea, tratamentele antiparazitare sunt esențiale pentru
-                sănătatea întregii familii.
+                Susținem sterilizarea pisicilor (indiferent de rasă) ca metodă
+                eficientă de control a populației feline și a reducerii
+                semnificative a riscurilor medicale asociate cu lipsa
+                sterilizării (tumori mamare, infecție uterină, chisturi
+                ovariene).
               </p>
             </div>
           </div>
@@ -626,17 +578,16 @@
           <div class="features col-lg-3">
             <div class="col-12 big-icon">
               <!-- icon -->
-              <i class="flaticon-dog-in-front-of-a-man"></i>
+              <i class="flaticon-medical"></i>
             </div>
             <div class="col-12">
-              <h5>Manopere medicale</h5>
+              <h5>Adopție</h5>
               <p>
-                Oferim o gamă largă de proceduri și tehnici utilizate pentru
-                diagnosticarea, tratarea și îngrijirea pisicilor. Evaluăm starea
-                de sănătate a felineii și stabilim un plan de tratament.
-                Utilizăm radiografii, ecografii și alte metode de imagistică
-                pentru a identifica problemele interne. Prevenim bolile
-                infecțioase prin administrarea vaccinurilor.
+                Adoptarea unei pisici salvează vieți și oferă o șansă animalelor
+                fără adăpost. Este un act de compasiune care reduce
+                suprapopularea adăposturilor. <br />În plus, adopția sprijină
+                comunitatea și oferă un cămin iubitor unei pisici care are
+                nevoie.
               </p>
             </div>
           </div>
@@ -645,17 +596,16 @@
           <div class="features col-lg-3">
             <div class="col-12 big-icon">
               <!-- icon -->
-              <i class="flaticon-veterinarian-hospital"></i>
+              <i class="flaticon-toyger-cat"></i>
             </div>
             <div class="col-12">
-              <h5>Analize laborator</h5>
+              <h5>Mediu prietenos</h5>
               <p>
-                Acestea sunt esențiale pentru monitorizarea sănătății și
-                diagnosticarea precoce a afecțiunilor. Ele oferă informații
-                valoroase despre starea de sănătate internă a pisicii și pot
-                include o varietate de teste, cum ar fi: Hemoleucograma (CBC),
-                profilul biochimic, testele de funcție tiroidiană sau teste
-                pentru virusuri.
+                Timpul dedicat unei consultații este de minim 10 minute pentru a
+                aborda cu răbdare fiecare pisică și a-i oferi ocazia să se
+                obișnuiască cu mediul nou și străin pentru ea. Folosim
+                recompense delicioase pentru distragerea atenției pisicii în
+                momentul consultației.
               </p>
             </div>
           </div>
@@ -664,17 +614,15 @@
           <div class="features col-lg-3">
             <div class="col-12 big-icon">
               <!-- icon -->
-              <i class="flaticon-animals-3"></i>
+              <i class="flaticon-pet-shelter"></i>
             </div>
             <div class="col-12">
-              <h5>Chirurgie</h5>
+              <h5>Informare</h5>
               <p>
-                Procedurile pot varia de la operații de rutină, cum ar fi
-                sterilizarea, până la intervenții complexe, necesare în cazul
-                accidentelor sau bolilor grave. Anestezia este utilizată pentru
-                a asigura că pisica nu simte durere în timpul intervenției, iar
-                monitorizarea post-operatorie este crucială pentru o recuperare
-                rapidă și fără complicații.
+                Vizitele regulate la veterinar sunt esențiale pentru a
+                monitoriza sănătatea pisicii tale. Diagnosticarea precoce a
+                problemelor poate preveni complicațiile și asigură o viață lungă
+                și sănătoasă. Fii informat și protejează-ți prietenul blănos!
               </p>
             </div>
           </div>
@@ -776,7 +724,7 @@
           data-top-bottom="transform:rotate(-370deg);"
         >
           <!-- Image -->
-          <img src="img/illustrations/toy.png" alt="" />
+          <img src="img/illustrations/toy.png" alt="toy" />
         </div>
         <!-- /parallax-object -->
         <div class="col-lg-9 offset-lg-3">
@@ -787,14 +735,24 @@
               <div class="col-12 p-3">
                 <!-- caption -->
                 <div class="review-caption">
-                  <h5>Alexandra O. Popescu</h5>
+                  <h5>Alexandra O Popescu</h5>
+
                   <!-- <div class="small-heading">Dog Lover</div> -->
+
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+
                   <blockquote>
-                    "Experiență deosebit de bună. Un loc unde poți știi sigur că
-                    felinuța ta va fi tratată cu blândețe. Analize și
-                    investigații amănunțite și atent făcute. Multă răbdare atât
-                    cu animăluțele, cât și oamenii lor - explicațiile sunt clare
-                    și accesibile."
+                    <i
+                      >"Experiență deosebit de bună. Un loc unde poți știi sigur
+                      că felinuța ta va fi tratată cu blândețe. Analize și
+                      investigații amănunțite și atent făcute. Multă răbdare
+                      atât cu animăluțele, cât și oamenii lor - explicațiile
+                      sunt clare și accesibile."</i
+                    >
                   </blockquote>
                 </div>
                 <!-- Profile image -->
@@ -813,12 +771,21 @@
                 <div class="review-caption">
                   <h5>Gianina Cimpoies</h5>
                   <!-- <div class="small-heading">Cat Specialist</div> -->
+
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+
                   <blockquote>
-                    "Un cabinet excepțional în adevăratul sens al cuvântului.
-                    Serviciile sunt de excepție. <br />Ma bucur ca în Cluj
-                    exista aceasta nisa, cu specializarea exclusiva pe pisici.
-                    Tot respectul pentru un adevărat profesionist, Dr Ioana
-                    Ion."
+                    <i
+                      >"Un cabinet excepțional în adevăratul sens al cuvântului.
+                      Serviciile sunt de excepție. <br />Ma bucur ca în Cluj
+                      exista aceasta nisa, cu specializarea exclusiva pe pisici.
+                      Tot respectul pentru un adevărat profesionist, Dr. Ioana
+                      Ion."</i
+                    >
                   </blockquote>
                 </div>
                 <!-- Profile image -->
@@ -837,12 +804,20 @@
                 <div class="review-caption">
                   <h5>Amanda</h5>
                   <!-- <div class="small-heading">Exotic Birds Vet</div> -->
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+
                   <blockquote>
-                    "I highly recommend this veterinary practice. The team here
-                    is incredibly professional, knowledgeable, and caring, and
-                    they consistently go above and beyond for their patients and
-                    their owners. They handle every situation with care and
-                    expertise."
+                    <i
+                      >"I highly recommend this veterinary practice. The team
+                      here is incredibly professional, knowledgeable, and
+                      caring, and they consistently go above and beyond for
+                      their patients and their owners. They handle every
+                      situation with care and expertise."</i
+                    >
                   </blockquote>
                 </div>
                 <!-- Profile image -->
@@ -861,12 +836,21 @@
                 <div class="review-caption">
                   <h5>Mihaela G</h5>
                   <!-- <div class="small-heading">Veterinarian</div> -->
+
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+
                   <blockquote>
-                    "Feline Focus Vet este pentru toate pisicuțele mele cel mai
-                    bun cabinet veterinar. Profesionalismul, implicarea și
-                    empatia domnisoarei doctor ne fac sa apelam mereu cu
-                    încredere la serviciile cabinetului. Mulțumim, Feline Focus
-                    Vet!"
+                    <i
+                      >"Feline Focus Vet este pentru toate pisicuțele mele cel
+                      mai bun cabinet veterinar. Profesionalismul, implicarea și
+                      empatia domnisoarei doctor ne fac sa apelam mereu cu
+                      încredere la serviciile cabinetului. Mulțumim, Feline
+                      Focus Vet!"</i
+                    >
                   </blockquote>
                 </div>
                 <!-- Profile image -->
@@ -885,12 +869,22 @@
                 <div class="review-caption">
                   <h5>Anca Cheregi</h5>
                   <!-- <div class="small-heading">Pet Lover</div> -->
+
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+
                   <blockquote>
-                    "Mă bucur enorm că există acest loc. Doamna doctor Ioana are
-                    o răbdare si o empatie infinită pentru pisicute, găsește
-                    soluții și își îngrijește pacienții cu știință și cu drag.
-                    <br />
-                    Recomand cu multă încredere oricărui proprietar de pisică."
+                    <i
+                      >"Mă bucur enorm că există acest loc. Doamna doctor Ioana
+                      are o răbdare si o empatie infinită pentru pisicute,
+                      găsește soluții și își îngrijește pacienții cu știință și
+                      cu drag.<br /><br />
+                      Recomand cu multă încredere oricărui proprietar de
+                      pisică."</i
+                    ><br />
                   </blockquote>
                 </div>
                 <!-- Profile image -->
@@ -923,7 +917,7 @@
           <img
             src="img/adopta-pisica.jpg"
             class="img-fluid img-rounded"
-            alt=""
+            alt="adopta pisica"
           />
         </div>
         <!-- text box  -->
@@ -1026,7 +1020,7 @@
           <ul class="list-inline">
             <li>
               <i class="fa fa-envelope"></i
-              ><a href="mailto:felinefocusvet@gmail.com"
+              ><a href="mailto:felinefocusvet@gmail.com" target="_self"
                 >felinefocusvet@gmail.com</a
               >
             </li>
@@ -1038,6 +1032,7 @@
               <i class="fa fa-map-marker margin-icon"></i>Str. Meteor 4,
               Cluj-Napoca, 400347
             </li>
+            <li>Luni – Joi: 10:00-18:00</li>
           </ul>
           <h4 class="margin1">Trimite un mesaj</h4>
           <!-- Form Starts -->
@@ -1050,7 +1045,7 @@
                 class="form-control input-field"
                 required=""
               />
-              <label>Adresa E-mail<span class="required">*</span></label>
+              <label>Adresă Email<span class="required">*</span></label>
               <input
                 type="email"
                 name="email"
@@ -1103,7 +1098,7 @@
             <!-- Footer logo -->
             <img
               src="img/feline-focus-logo.png"
-              alt=""
+              alt="Feline Focus"
               class="center-block img-responsive footer-logo"
             />
           </div>
@@ -1113,7 +1108,7 @@
               <li><i class="fa fa-phone"></i>(+4) 0757 696 084</li>
               <li>
                 <i class="fa fa-envelope"></i>Email:
-                <a href="mailto:felinefocusvet@gmail.com"
+                <a href="mailto:felinefocusvet@gmail.com" target="_self"
                   >felinefocusvet@gmail.com</a
                 >
               </li>
@@ -1121,6 +1116,7 @@
                 <i class="fa fa-map-marker"></i>Str. Meteor 4, Cluj-Napoca,
                 400347
               </li>
+              <li>Luni – Joi: 10:00-18:00</li>
             </ul>
           </div>
           <!-- /.col-lg-4 -->
@@ -1130,7 +1126,10 @@
             <div class="social-media">
               <!-- <a href="#" title=""><i class="fab fa-twitter"></i></a>
               <a href="#" title=""><i class="fab fa-facebook"></i></a> -->
-              <a href="https://www.instagram.com/felinefocusvet/" title=""
+              <a
+                href="https://www.instagram.com/felinefocusvet/"
+                title="Instagram"
+                target="_blank"
                 ><i class="fab fa-instagram"></i
               ></a>
             </div>
@@ -1142,7 +1141,7 @@
       <!-- /.container -->
       <!-- Credits-->
       <div class="credits col-lg-12 text-center">
-        Copyright ©2024 Designed by FelineFocus
+        Copyright ©2024 Designed by Feline Focus
         <!-- Go To Top Link -->
         <div class="hidden-sm d-none d-lg-block">
           <a href="#page-top" class="back-to-top"

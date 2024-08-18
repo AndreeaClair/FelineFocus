@@ -390,6 +390,10 @@ nav.navbar.shrink ul.dropdown-menu > li > a {
   padding-top: 80px;
 }
 
+.white-phone {
+  color: white !important;
+}
+
 .header-wrapper {
   width: 100% !important;
 }
@@ -642,7 +646,7 @@ ul.slider-pagi {
   position: absolute;
   left: 50%;
   top: 50%;
-  background: #cecece;
+  background: rgb(239, 80, 48);
   width: 1.2rem;
   height: 1.2rem;
   border-radius: 50%;
@@ -1488,6 +1492,10 @@ ul.slider-pagi {
   max-width: 100%;
   min-height: 350px;
   border-top: 10px solid;
+}
+
+#map-canvas.contact-map {
+  min-height: 80vh;
 }
 
 /* =========================== Footer and Credits ============================ */

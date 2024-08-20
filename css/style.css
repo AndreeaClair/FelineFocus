@@ -569,7 +569,8 @@ i.icon-slider1 {
 .slider {
   z-index: 1;
   position: relative;
-  height: 900px;
+  /* height: 900px; */
+  height: 100vh;
   top: 50px;
 }
 
@@ -2277,14 +2278,14 @@ blockquote {
   font-family: "Baloo Thambi", sans-serif;
 }
 
-blockquote:before {
+/* blockquote:before {
   content: "\f10d";
   font-family: "Font Awesome 5 Free";
   font-size: 2.3em;
   line-height: 0.1em;
   margin-right: 0.5em;
   vertical-align: 0.2em;
-}
+} */
 
 /* Nav-pills */
 
@@ -2824,13 +2825,13 @@ button.list-group-item:hover {
 
   .slide__text {
     left: 0;
-    top: 55%;
+    top: 50%;
     max-width: 100%;
     text-align: center;
     position: relative;
     transform: translateY(50%);
     transition: transform 0.5s 0.5s, opacity 0.5s 0.5s;
-    padding: 0 1rem;
+    padding: 1rem;
   }
 
   .slide__overlay {
@@ -2846,7 +2847,7 @@ button.list-group-item:hover {
   }
 
   .hidden-mobile {
-    display: none;
+    /* display: none; */
   }
 
   #curveUp {
@@ -3164,9 +3165,9 @@ button.list-group-item:hover {
     padding: 25px;
   }
 
-  .spinner {
+  /* .spinner {
     left: 42%;
-  }
+  } */
 
   .adoption-thumb {
     padding: 0px;
@@ -3175,7 +3176,8 @@ button.list-group-item:hover {
   /* Main Slider and video header */
 
   .slider {
-    height: 220px;
+    /* height: 220px; */
+    height: 80vh;
   }
 
   .slider-pagi {

@@ -2763,6 +2763,11 @@ button.list-group-item:hover {
     line-height: 38px;
   }
 
+  .lead {
+    font-size: 1.2rem;
+    line-height: 1;
+  }
+
   h2 {
     font-size: 2.2em !important;
   }
@@ -2945,11 +2950,11 @@ button.list-group-item:hover {
   /* Jumbotron */
 
   .jumbotron .jumbo-heading {
-    margin-top: 140px;
+    margin-top: 230px;
   }
 
   .jumbotron {
-    height: 250px;
+    height: 300px;
     margin-bottom: 9em;
   }
 
@@ -3015,12 +3020,12 @@ button.list-group-item:hover {
     right: 0%;
     background-image: none;
     padding: 20px;
-    margin-top: 80px;
+    margin-top: 250px;
   }
 
   .jumbotron {
     padding: 10px;
-    height: 150px;
+    height: 300px;
     margin-top: 20px;
     margin-bottom: 6em;
   }

@@ -896,7 +896,7 @@ ul.slider-pagi {
 ============================ */
 
 #reviews {
-  background-image: url(../img/cat-jump.jpg);
+  background-image: url(../img/cat-jump-b.jpg);
   background-repeat: no-repeat;
   background-position: 0% center;
   background-size: 30%;
@@ -907,7 +907,7 @@ ul.slider-pagi {
 ============================ */
 
 #contact-index {
-  background: url(../img/contact.jpg) no-repeat;
+  background: url(../img/contact-b.jpg) no-repeat;
   background-attachment: fixed;
   background-position: 0% bottom;
   background-color: #fff;
@@ -2437,19 +2437,19 @@ blockquote {
 }
 
 .jumbotron-contact {
-  background: url(../img/contact-header.jpg);
+  background: url(../img/contact-header-b.jpg);
 }
 
 .jumbotron-about {
-  background: url(../img/chirurgie-2.jpg);
+  background: url(../img/chirurgie-2b.jpg);
 }
 
 .jumbotron-pricing {
-  background: url(../img/pricing-1.jpg);
+  background: url(../img/pricing-1b.jpg);
 }
 
 .jumbotron-gallery {
-  background: url(../img/galerie-2.jpg);
+  background: url(../img/galerie-2b.jpg);
 }
 
 .jumbo-heading h1 {

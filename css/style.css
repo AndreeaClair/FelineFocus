@@ -1008,12 +1008,16 @@ ul.slider-pagi {
 
 /* =========================== Team Page ============================ */
 
+.my-team .slick-dots {
+  display: none;
+}
+
 .team-wrap {
   position: relative;
   border-radius: 15px;
 }
 
-.team-wrap:before {
+/* .team-wrap:before {
   content: "\f14a";
   position: absolute;
   font-family: "flaticon";
@@ -1023,7 +1027,7 @@ ul.slider-pagi {
   opacity: 0.3;
   z-index: 10;
   margin-top: -10px;
-}
+} */
 
 .team-wrap .member {
   border-radius: 15px;

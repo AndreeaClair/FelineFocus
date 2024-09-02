@@ -1054,6 +1054,12 @@ ul.slider-pagi {
   width: 100%;
 }
 
+@media screen and (max-width: 767px) {
+  .team-wrap .member .wrap .info {
+    min-height: 125px;
+  }
+}
+
 .team-wrap .member .wrap .info .name {
   margin: 0;
   font-size: 1.7em;

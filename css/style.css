@@ -2944,11 +2944,13 @@ button.list-group-item:hover {
   /* Main Slider */
 
   .slider {
-    height: 380px;
+    /* height: 380px; */
+    height: 80vh;
   }
 
   .slider-pagi {
-    bottom: -6%;
+    /* bottom: -6%; */
+    display: none;
   }
 
   /* Jumbotron */

@@ -2040,6 +2040,12 @@ section.pages {
   border-bottom: 1px solid rgba(16, 136, 150, 0.25);
 }
 
+.padded-accordion .row.noborder {
+  border-bottom: 0px solid rgba(16, 136, 150, 0.25);
+}
+
+
+
 .padded-accordion .col-md-2 {
   text-align: right;
 }
